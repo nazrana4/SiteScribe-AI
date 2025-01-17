@@ -22,6 +22,9 @@ This chatbot leverages **Retrieval-Augmented Generation (RAG)**, a modern and ef
 4. **Large Language Models (LLMs)**:  
    Extracted information is processed by an LLM, which generates accurate and context-aware responses.
 
+5. **Semantic Router**:
+   A Semantic Router is implemented to intelligently analyze user queries and route them to the most relevant dataset or module. This ensures the chatbot provides highly accurate and intent-specific responses. By dynamically directing queries based on their semantic meaning, it enhances both efficiency and user satisfaction.
+
 
 
 ### How RAG Works:
