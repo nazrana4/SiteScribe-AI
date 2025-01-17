@@ -1,7 +1,7 @@
 # SiteScribe-AI
 
 ## **Project Overview**
-This project aims to scrape websites, extract and clean their content, and answer user queries based on the scraped data. Additionally, it integrates a chatbot capable of retaining conversation history for contextual and seamless interactions.
+This project focuses on building a chatbot specifically designed for website data. Unlike general-purpose chatbots, this one is trained on the targeted website's content, enabling it to deliver highly accurate and relevant responses. By addressing the challenges of unstructured website data, it saves users time and ensures they find what they need efficiently. The chatbot also retains chat history, allowing it to provide context-aware responses for a seamless user experience.
 
 ---
 
