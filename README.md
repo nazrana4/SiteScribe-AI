@@ -5,7 +5,7 @@ This project focuses on building a chatbot specifically designed for website dat
 
 ---
 
-### Techniques Used to Build the Chatbot
+## Techniques Used to Build the Chatbot
 
 This chatbot leverages **Retrieval-Augmented Generation (RAG)**, a modern and efficient approach for creating AI-powered chatbots without requiring model training. Below is an outline of its core components and workflow:
 
