@@ -5,6 +5,42 @@ This project focuses on building a chatbot specifically designed for website dat
 
 ---
 
+### Techniques Used to Build the Chatbot
+
+This chatbot leverages **Retrieval-Augmented Generation (RAG)**, a modern and efficient approach for creating AI-powered chatbots without requiring model training. Below is an outline of its core components and workflow:
+
+#### Core Components of RAG:
+1. **Vector Embeddings**:  
+   Data is transformed into high-dimensional vectors, enabling efficient similarity-based retrieval using methods like **cosine similarity** or **k-nearest neighbors**.
+   
+2. **Vector Database**:  
+   Vector embeddings are stored persistently in a database (e.g., **ChromaDB**) or maintained in-memory for quick access.
+
+3. **Retriever**:  
+   Queries are processed by retrieving relevant data from the vector database based on parameters like similarity metrics.
+
+4. **Large Language Models (LLMs)**:  
+   Extracted information is processed by an LLM, which generates accurate and context-aware responses.
+
+---
+
+#### How RAG Works:
+1. **Data Preparation**: Data from the target source is converted into vector embeddings.  
+2. **Query Processing**: User queries are also converted into embeddings and matched against the stored vectors to retrieve relevant data.  
+3. **Response Generation**: The retrieved data is sent to an LLM, which formulates a natural and coherent response.  
+
+---
+
+#### Pros:
+- Eliminates the need for extensive model training.  
+- Scalable and efficient for handling unstructured data.  
+- Provides accurate, context-aware responses tailored to specific domains.  
+
+#### Cons:
+- Requires maintaining an up-to-date vector database for accurate results.  
+- Performance may depend on the quality of embeddings and data preprocessing.  
+---
+
 ## **Features Implemented**
 
 ### 1. **Web Scraping**
