@@ -10,7 +10,6 @@ This project aims to scrape websites, extract and clean their content, and answe
 ### 1. **Web Scraping**
 - **HTML Fetching**: Fetches the HTML content of a given website using the `requests` library.
 - **File Handling**:
-  - Saves the HTML content to a structured folder (`./data`).
   - Avoids redundant downloads by checking if the file already exists.
 - **Content Cleaning**:
   - Parses and cleans the HTML content using `BeautifulSoup`.
@@ -33,7 +32,6 @@ This project aims to scrape websites, extract and clean their content, and answe
 
 ### 5. **Chatbot with Conversation History**
 - Maintains conversation history to ensure context-aware responses.
-- Saves conversation logs to a file for persistence.
 - Provides users with a natural, chat-like interface for interactions.
 
 ---
@@ -44,7 +42,7 @@ This project aims to scrape websites, extract and clean their content, and answe
 - Python 3.8+
 - Install the required Python libraries:
   ```bash
-  pip install requests beautifulsoup4 lxml sentence-transformers langchain-community pypdf
+  pip install requests beautifulsoup4 lxml sentence-transformers langchain-community langchain-core langchain-google-vertexai
   ```
 
 ### **Steps to Run**
@@ -74,16 +72,6 @@ This project aims to scrape websites, extract and clean their content, and answe
 
 ---
 
-## **Folder Structure**
-```
-.
-├── data/               # Raw HTML files saved from scraping
-├── content/            # Cleaned and extracted content
-├── chat_history.json   # Logs of chatbot conversations
-└── main.py             # Main script for the project
-```
-
----
 
 ## **Future Improvements**
 1. **Dynamic Scraping**:
