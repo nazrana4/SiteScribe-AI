@@ -74,15 +74,9 @@ This project aims to scrape websites, extract and clean their content, and answe
 
 
 ## **Future Improvements**
-1. **Dynamic Scraping**:
-   - Handle JavaScript-based content with Selenium or Playwright.
-2. **Advanced Query Handling**:
-   - Improve contextual search and add confidence scores.
-3. **Web Interface**:
+1. **Web Interface**:
    - Create a GUI for users to interact with the scraper and chatbot.
-4. **Scalability**:
+2. **Scalability**:
    - Use persistent databases like FAISS or Pinecone for large-scale document embeddings.
-5. **Multi-Website Support**:
-   - Allow users to manage and query data from multiple scraped websites.
 
 ---
