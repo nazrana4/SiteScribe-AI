@@ -76,7 +76,9 @@ This project aims to scrape websites, extract and clean their content, and answe
 ## **Future Improvements**
 1. **Web Interface**:
    - Create a GUI for users to interact with the scraper and chatbot.
-2. **Scalability**:
+2. **Improved Chat History**:
+   - Using hybrid technique for keeping the chat history. We can combine condensed plus summarized history for effeciency.
+4. **Scalability**:
    - Use persistent databases like FAISS or Pinecone for large-scale document embeddings.
 
 ---
