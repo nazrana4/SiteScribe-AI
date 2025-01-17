@@ -46,29 +46,24 @@ This project aims to scrape websites, extract and clean their content, and answe
   ```
 
 ### **Steps to Run**
-1. **Start the Application**:
-   - Run the Python script.
-   - Choose to scrape a website.
-
-2. **Scraping Websites**:
+1. **Scraping Websites**:
+   - Run the python script (scrapper.py).
    - Enter the URL of the website to scrape.
    - The program will:
      - Fetch and save the HTML.
      - Parse and clean the content.
      - Save the cleaned content in the `./content` folder.
-     - Upload the scraped contents in this folder to google drive
+     - Upload the scraped contents in this folder to google drive.
 
-3. **Querying Content**:
+2. **Querying Content**:
    - Run the app.ipynb in Google Collab and install the dependencies.
    - Mount the google drive and access the content stored on the drive.
    - Then run the cells in the notebook.
    - Input the query making call to the function rag_call_with_history passing your query as the parameter.
    - The chatbot retrieves relevant content and answers your query.
 
-4. **Conversation History**:
-   - The chatbot maintains a conversation log to provide context-aware responses.
-   - Logs are saved persistently for future reference.
-
+3. **Conversation History**:
+   - The chatbot maintains a conversation history for context-aware responses.
 ---
 
 
