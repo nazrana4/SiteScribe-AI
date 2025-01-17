@@ -25,12 +25,12 @@ This project aims to scrape websites, extract and clean their content, and answe
   - Uses `SentenceTransformer` for document embeddings.
   - Supports semantic similarity searches within the scraped content.
 
-### 4. **Retrieve-and-Answer (RAG) Pipeline**
+### 3. **Retrieve-and-Answer (RAG) Pipeline**
 - Retrieves relevant chunks of content based on user queries.
 - Answers questions using context retrieved from the vector store.
 - Provides concise and grounded answers or acknowledges if the answer is unavailable.
 
-### 5. **Chatbot with Conversation History**
+### 4. **Chatbot with Conversation History**
 - Maintains conversation history to ensure context-aware responses.
 - Provides users with a natural, chat-like interface for interactions.
 
@@ -63,7 +63,7 @@ This project aims to scrape websites, extract and clean their content, and answe
      - Save the cleaned content in the `./content` folder.
 
 3. **Querying Content**:
-   - Enter a query.
+   - Run the chatbot.Enter a query.
    - The chatbot retrieves relevant content and answers your query.
 
 4. **Conversation History**:
